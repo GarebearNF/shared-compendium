@@ -1,0 +1,110 @@
+{
+  "id": "shared-compendium",
+  "title": "Shared Compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+"relationships": {
+    "recommends": [
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "itemacro",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "times-up",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dfreds-convenient-effects",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ActiveAuras",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tokenmagic",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Syphre",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "label": "All Creatures",
+      "name": "all-creatures",
+      "type": "Actor",
+      "system": "dnd5e",
+      "path": "packs/all-creatures",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Items and Spells",
+      "name": "items-and-spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/items-and-spells",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Shared Tables",
+      "name": "shared-tables",
+      "type": "RollTable",
+      "path": "packs/shared-tables",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Shared Macros",
+      "name": "shared-macros",
+      "type": "Macro",
+      "path": "packs/shared-macros",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+"url": "https://github.com/GarebearNF/shared-compendium",
+  "manifest": "https://github.com/GarebearNF/FullCompendium/raw/main/module.json",
+  "download": "https://www.dropbox.com/s/vuzlwc4cz72sa4y/FullCompendium.zip?dl=1"
+}
